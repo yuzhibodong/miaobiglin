@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.enable.DynamicMethodInvocation" value="false"></constant>
+	<constant name="struts.devMode" value="true"></constant>
+	<package name="default" namespace="/" extends="struts-default">	
+		<action name="weixin" class="com.book.action.WeiXinAction" method="weixin">
+			<result name="textAction" type="chain">textAction</result>
+		</action>
+		
+		<action name="textAction" class="com.book.action.TextAction" method="text">
+		</action>
+		
+	</package>
+</struts>    

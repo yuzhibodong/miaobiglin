@@ -6,7 +6,7 @@
 
 它的功能主要是完成书籍的检索并推送到用户的邮箱或kindle上，简单而纯粹。
 
-这个公众号是2016年冬天我一时兴起学习微信二次开发的习作，最初的目的是练习struts2框架和hibernate框架，以及给自己的kindle推送盗版书(逃)。
+这个公众号是2016年冬天我一时兴起学习微信二次开发的习作，最初的目的是练习struts2框架和hibernate框架，以及给自己的kindle推送电子书(逃)。
 
 具体信息欢迎查看当时我制作的[maka演示](http://u372325.viewer.maka.im/pcviewer/YT8PXK84?DSCKID=a7a3f5d6-648c-4d61-9417-e1c746ef02fb&DSTIMESTAMP=1480259392445&from=timeline "看一下看一下")
 
